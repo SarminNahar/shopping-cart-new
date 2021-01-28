@@ -146,7 +146,7 @@
                 const caseInput = document.getElementById("case-count");
                 const caseCount = parseInt(caseInput.value);
 
-                const totalPrice = phoneCount * 1219 + caseCount + 59;
+                const totalPrice = phoneCount * 1219 + caseCount * 59;
                 document.getElementById(sub - total).innerText = '$' + totalPrice;
 
                 const tax = Math.round(totalPrice * 0.1);
