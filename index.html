@@ -99,11 +99,9 @@
             ProductTotal = newProductCount * 59;
           }
  
-            document.getElementById(Product + '-total').innerText = '$' + ProductTotal;
+            document.getElementById(product + '-total').innerText = '$' + ProductTotal;
             calculateTotal();
          }
-
-
          function calculateTotal(){
             const phoneCount = getInputValue('phone');
             const caseCount = getInputValue('case');
